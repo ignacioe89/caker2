@@ -1,3 +1,17 @@
+@import 'styles/css/bootstrap.css';
+@import 'styles/css/bootstrap.min.css';
+@import 'styles/css/custom.css';
+@import 'styles/css/fontawesome.css';
+@import 'styles/css/fontawesome.min.css';
+@import 'styles/css/index.css';
+@import 'styles/css/slick-theme.css';
+@import 'styles/css/slick-theme.min.css';
+@import 'styles/css/slick.min.css';
+@import 'styles/css/templatemo.css';
+@import 'styles/css/templatemo.min.css';
+
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +49,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo { font-weight: 500 !important;}
+.text-warning {  color: #c49e42 !important;}
+.text-muted { color: #7a6e6e !important;}
+.text-success { color: #c49e42!important;}
+.text-light { color: #494b4e !important;}
+.bg-dark { background-color: #f6f2e6 !important;}
+.bg-light { background-color: #f6f2e6 !important;}
+.bg-black { background-color: #c49e42 !important;}
+.bg-success { background-color: #c49e42 !important;}
+/* button footer en bas */
+.btn-success {
+  background-color: #c49e42 !important;
+  border-color: #c49e42 !important;
+}
+.bg{
+  background-color: #000000 !important;
+}
+.pagination .page-link:hover {color: #000;}
+.pagination .page-link:hover, .pagination .page-link.active {
+  background-color: #c49e42;
+  color: #fff;
 }
