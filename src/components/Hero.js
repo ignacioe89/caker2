@@ -1,3 +1,5 @@
+import mollyCakeFleur from '../styles/img/mollycakefleur.png';
+
 const Hero = () => {
   return (
     <div
@@ -27,7 +29,7 @@ const Hero = () => {
               <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
                 <img
                   class="img-fluid"
-                  src="./assets/img/mollycakefleur.png"
+                  src={mollyCakeFleur}
                   alt=""
                 />
               </div>
@@ -48,7 +50,7 @@ const Hero = () => {
               <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
                 <img
                   class="img-fluid"
-                  src="./assets/img/montblanc.png"
+                  src="../styles/img/montblanc.png"
                   alt=""
                 />
               </div>
@@ -68,7 +70,7 @@ const Hero = () => {
               <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
                 <img
                   class="img-fluid"
-                  src="./assets/img/framboise-lait-amandes.png"
+                  src="../styles/img/framboise-lait-amandes.png"
                   alt=""
                 />
               </div>
